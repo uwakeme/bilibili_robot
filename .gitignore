@@ -1,0 +1,29 @@
+# 环境变量和个人配置
+.env
+.env.*
+!.env.example
+
+# Python虚拟环境
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 缓存文件
+cache/
+temp/
+
+# 日志文件
+*.log
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
